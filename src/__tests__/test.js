@@ -17,5 +17,5 @@ test('тест функции sortLive', () => {
 });
 
 test('тест с  .toBe', () => {
-  expect(sortLive(arrSort)).toBe(arrTotal);
+  expect(sortLive(arrSort)).not.toBe(arrTotal);
 });
